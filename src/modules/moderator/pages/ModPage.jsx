@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import laboratorioService from "../../services/LaboratorioService";
-import ordenCompraService from "../../services/OrdenCompraService";
+import ordenCompraService from "../../services/OrdencompraService";
 import Layout from "../../../shared/layout/Layout";
 
 const ModPage = () => {

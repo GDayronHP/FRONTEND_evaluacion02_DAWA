@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+    --color-primary: #455866;
+    --color-secondary: #566e7f;
+    --color-active: white;
+    --color-inactive: #c4c4c4;
+}
+
+.form__input {
+    background-color: #455866;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.btn__submit {
+    background-color: white;
+    height: 45px;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    transition: background-color 0.1s ease-in;
+
+    &:hover {
+        background-color: #cecece;
+    }
+}
+
+.btn__active {
+    border-bottom: 2px solid var(--color-active);
+    color: var(--color-active);
+    cursor: pointer;
+    transition: background-color 0.1s ease-in;
+
+    &:hover {
+        background-color: #566e7f7c;
+    }
+
+}
+
+.btn__deactivate {
+    color: var(--color-inactive);
+    cursor: pointer;
+    transition: background-color 0.1s ease-in;
+
+    &:hover {
+        background-color: #566e7f7c;
+        border-bottom: 2px solid var(--color-inactive);
+    }
+}

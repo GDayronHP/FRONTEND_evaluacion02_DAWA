@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Switch from "../components/switch";
+import Switch from "../components/Switch";
 import LoginForm from "../components/LoginForm";
 import RegisterForm from "../components/RegisterForm";
 
